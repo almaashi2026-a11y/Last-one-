@@ -33,4 +33,4 @@ ALERT_MIN_SCORE = float(os.environ.get("ALERT_MIN_SCORE", "60"))
 def validate_config():
     missing = []
     if not FINNHUB_API_KEY:
-        missing.append(
+        missing.append()
